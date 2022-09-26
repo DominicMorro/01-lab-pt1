@@ -1,0 +1,74 @@
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.nav-list li {
+  color: #69696a;
+  list-style: none;
+  padding-top: 10px;
+  margin: 0;
+}
+.nav-list {
+  padding: 0;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.hire {
+  background-color: #000;
+  margin: 10px 10px;
+  padding: 0px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.paragraph {
+  border-left: 3px solid #69696a;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+h2 {
+  padding-left: 10px;
+}
+
+h3 {
+  background-color: #000;
+  margin: 10px 10px;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+footer {
+  background-color: rgba(247, 193, 162, 0.7);
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  margin-top: 140px;
+}
+.chirpus {
+  justify-content: flex-start;
+  color: #000;
+}
+.footer {
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #69696a;
+}
